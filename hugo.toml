@@ -3,6 +3,8 @@ languageCode = 'pt-br'
 title = 'Maysa Claudino'
 theme = 'quint'
 
+summaryLength = 5                  # Number of characters in your card summaries
+
 [[menu.main]]
     name = "TCC"
     url = "/tcc"
