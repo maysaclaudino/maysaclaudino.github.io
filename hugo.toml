@@ -1,7 +1,7 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'ananke'
+baseURL = 'https://maysaclaudino.github.io/'
+languageCode = 'pt-br'
+title = 'Maysa Claudino'
+theme = 'quint'
 
 [caches]
   [caches.images]
