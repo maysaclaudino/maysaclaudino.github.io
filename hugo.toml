@@ -3,11 +3,16 @@ languageCode = 'pt-br'
 title = 'Maysa Claudino'
 theme = 'quint'
 
+[[menu.main]]
+    name = "TCC"
+    url = "/tcc"
+    weight = 10
+
 [params]
 contact = "You can write me an [email](mailto:maysaclaudino@usp.br)."
 
 [[params.social]]
-    url = "mailto:me"
+    url = "mailto:maysaclaudino@usp.br"
     icon = "/social/email.png"
     name = "Email"
 
