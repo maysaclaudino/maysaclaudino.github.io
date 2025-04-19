@@ -3,6 +3,14 @@ languageCode = 'pt-br'
 title = 'Maysa Claudino'
 theme = 'quint'
 
+[params]
+contact = "You can write me an [email](mailto:maysaclaudino@usp.br)."
+
+[[params.social]]
+    url = "mailto:me"
+    icon = "/social/email.png"
+    name = "Email"
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
