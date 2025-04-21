@@ -1,14 +1,14 @@
 +++
-date = '2025-04-19T16:17:36-03:00'
+date = '2025-04-21T16:17:36-03:00'
 draft = false
-title = 'Proposta'
+title = 'Proposta de trabalho'
+image = '/images/aerial-view-cityscape.jpg'
 +++
 
 
 # Simulação do impacto de eventos pluviométricos na mobilidade urbana da cidade de São Paulo
-<!-- <a href="/tcc/proposta.pdf" target="_blank" class="button-link">
-  📄 Ver proposta em PDF
-</a> -->
+
+[Abrir a proposta em PDF](/tcc/proposta.pdf)
 
 ## Motivação
 
@@ -36,6 +36,17 @@ O InterSCsimulator é um simulador de tráfego para cidades inteligentes desenvo
 Para atender os objetivos apresentados acima, os dados das vias serão enriquecidos com informações que correlacionam os casos de alagamentos com índices pluviométricos. Os pontos de alagamento de 2013 a 2024 foram extraídos a partir dos registros da Companhia de Engenharia de Trânsito e da Defesa Civil. O histórico de índices pluvioméricos do período está disponível na base de dados das estações pluviométricas do Instituto Nacional de Meteorologia e do Centro de Gerenciamento de Emergências Climáticas.
 
 Abaixo consta um cronograma das atividades planejadas, com a indicação do período estimado para sua conclusão.
+
+| Atividade                                                       | mar | abr | mai | jun | jul | ago | set | out | nov | dez |
+|------------------------------------------------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| Estudo da linguagem Erlang                                       |  x  |  x  |     |     |     |     |     |     |     |     |
+| Estudo do código-fonte do InterSCsimulator                       |  x  |  x  |  x  |     |     |     |     |     |     |     |
+| Levantamento de dados históricos pluviométricos e de alagamentos|     |  x  |  x  |     |     |     |     |     |     |     |
+| Integração dos dados ao simulador                                |     |     |     |  x  |  x  |     |     |     |     |     |
+| Adaptar a simulação para considerar eventos pluviométricos       |     |     |     |     |  x  |  x  |  x  |     |     |     |
+| Análise dos impactos dos alagamentos na mobilidade urbana        |     |     |     |     |     |     |     |  x  |  x  |  x  |
+| Escrita da monografia                                            |     |     |     |     |     |  x  |  x  |  x  |  x  |  x  |
+
 
 ## Referências
 

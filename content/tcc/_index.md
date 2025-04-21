@@ -1,5 +1,6 @@
 ---
 title: "Trabalho de Conclusão de Curso"
+image: "/images/aerial-view-cityscape.jpg"
 ---
 
 # Simulação do impacto de eventos pluviométricos na mobilidade urbana da cidade de São Paulo
