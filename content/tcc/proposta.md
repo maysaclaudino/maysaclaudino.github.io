@@ -1,5 +1,5 @@
 +++
-date = '2025-04-21T16:17:36-03:00'
+date = '2025-04-19T16:17:36-03:00'
 draft = false
 title = 'Proposta de trabalho'
 image = '/images/aerial-view-cityscape.jpg'
