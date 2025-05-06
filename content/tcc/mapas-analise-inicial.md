@@ -19,7 +19,7 @@ O arquivo resultante pode ser acessado aqui:
 
 ## Ocorrências de alagamentos e ruas intransitáveis (2018–2023)
 
-<iframe src="/tcc/mapa_ocorrencias_2018-2023.html" width="100%" height="500" style="border:none;"></iframe>
+<iframe src="/tcc/01-mapas-analise-inicial/mapa_ocorrencias_2018-2023.html" width="100%" height="500" style="border:none;"></iframe>
 
 Para uma análise mais detalhada por ano, acesse os mapas individuais:
 
