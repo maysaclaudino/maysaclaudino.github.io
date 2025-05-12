@@ -9,7 +9,7 @@ image = '/images/mapa-sp.jpg'
 
 Nesta etapa inicial do projeto, foram construídos alguns mapas interativos com base nos dados de alagamentos e precipitação no município de São Paulo, referentes ao período de 2018 a 2023. O objetivo é identificar padrões espaciais e temporais que possam fundamentar as decisões na etapa de simulação da mobilidade urbana sob eventos de chuva intensa.
 
-Para facilitar a análise, consolidei em um único arquivo CSV os dados de alagamentos registrados pela Defesa Civil, os registros de ruas intransitáveis fornecidos pela Companhia de Engenharia de Tráfego, e os índices pluviométricos correspondentes à data de cada ocorrência, obtidos do Centro de Gerenciamento de Emergências Climáticas.
+Para facilitar a análise, consolidei em um único arquivo CSV os dados de [alagamentos](https://metadados.geosampa.prefeitura.sp.gov.br/geonetwork/intranet/por/catalog.search#/metadata/432c06b1-03a1-4b1f-9210-423e1b58e869) registrados pela [Defesa Civil](https://www.defesacivil.sp.gov.br/), os registros de ruas intransitáveis fornecidos pela [Companhia de Engenharia de Tráfego](https://www.cetsp.com.br/), e os [índices pluviométricos](https://arquivos.saisp.br/nextcloud/index.php/s/qikdinFyAM33MJK?path=%2FBOLETIM_PLUVIOMETRICO) correspondentes à data de cada ocorrência, obtidos do [Centro de Gerenciamento de Emergências Climáticas](https://www.cgesp.org/v3/).
 
 O conjunto abrange o período de 2018 a 2023. Optei por não incluir os dados de 2024, pois estavam disponíveis apenas até o início de novembro e poderiam comprometer a comparação anual.
 
