@@ -26,16 +26,16 @@ Para uma análise mais detalhada por ano, acesse os mapas individuais:
 - [Ocorrências 2019](/tcc/01-mapas-analise-inicial/mapa_ocorrencias_2019.html)
 - [Ocorrências 2018](/tcc/01-mapas-analise-inicial/mapa_ocorrencias_2018.html)
 
-## Volume de precipitação no dia de cada ocorrência
-
-<iframe src="/tcc/01-mapas-analise-inicial/mapa_chuva_ocorrencias.html" width="100%" height="500" style="border:none;"></iframe>
-
 A análise dos mapas indica que as subprefeituras com maior número de ocorrências são Sé e São Miguel. No entanto, essas regiões apresentam características diferentes:
 
 - Em São Miguel, observa-se alto número de alagamentos, mas poucas ocorrências de vias intransitáveis. Além disso, os registros estão bastante concentrados geograficamente.
 - Já na Sé, as ocorrências são mais diversificadas e distribuídas pela região central.
 
 Dado o volume, a distribuição dos dados e a diversidade de meios de transporte (ônibus, metrô, ruas e avenidas), a região da Sé se mostra mais interessante para o desenvolvimento da simulação. Outro fator relevante é a presença de corpos hídricos como os rios Tamanduateí e Tietê, que podem influenciar nos eventos de alagamento.
+
+## Volume de precipitação no dia de cada ocorrência
+
+<iframe src="/tcc/01-mapas-analise-inicial/mapa_chuva_ocorrencias.html" width="100%" height="500" style="border:none;"></iframe>
 
 ## Ocorrências sem chuva significativa
 
