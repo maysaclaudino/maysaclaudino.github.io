@@ -13,10 +13,6 @@ Para facilitar a análise, consolidei em um único arquivo CSV os dados de alaga
 
 O conjunto abrange o período de 2018 a 2023. Optei por não incluir os dados de 2024, pois estavam disponíveis apenas até o início de novembro e poderiam comprometer a comparação anual.
 
-O arquivo resultante pode ser acessado aqui:
-[Download dos dados consolidados (.csv)](/tcc/01-mapas-analise-inicial/dados_com_precipitacao.csv)
-
-
 ## Ocorrências de alagamentos e ruas intransitáveis (2018–2023)
 
 <iframe src="/tcc/01-mapas-analise-inicial/mapa_ocorrencias_2018-2023.html" width="100%" height="500" style="border:none;"></iframe>
