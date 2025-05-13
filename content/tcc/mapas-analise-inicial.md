@@ -17,6 +17,54 @@ O conjunto abrange o período de 2018 a 2023. Optei por não incluir os dados de
 
 <iframe src="/tcc/01-mapas-analise-inicial/mapa_ocorrencias_2018-2023.html" width="100%" height="500" style="border:none;"></iframe>
 
+## Densidade de Ocorrências por km² – Subprefeituras de SP (2018–2023)
+
+<iframe id="mapa" src="/tcc/01-mapas-analise-inicial/mapa_subdistrito_km2_2018-2023.html" width="100%" height="600" style="border:none;"></iframe>
+
+<div class="tabs">
+  <button onclick="trocarMapa('2018-2023')">2018-2023</button>
+  <button onclick="trocarMapa('2018')">2018</button>
+  <button onclick="trocarMapa('2019')">2019</button>
+  <button onclick="trocarMapa('2020')">2020</button>
+  <button onclick="trocarMapa('2021')">2021</button>
+  <button onclick="trocarMapa('2022')">2022</button>
+  <button onclick="trocarMapa('2023')">2023</button>
+  <!-- Adicione mais anos conforme necessário -->
+</div>
+
+<script>
+  function trocarMapa(ano) {
+    const iframe = document.getElementById('mapa');
+    iframe.src = `/tcc/01-mapas-analise-inicial/mapa_subdistrito_km2_${ano}.html`;
+  }
+</script>
+
+<style>
+  .tabs {
+    display: flex;          /* Exibe os botões em linha */
+    gap: 10px;              /* Espaçamento entre as abas */
+    margin-bottom: 20px;    /* Espaço abaixo das abas */
+  }
+
+  .tabs button {
+    padding: 10px 20px;     /* Tamanho do botão */
+    background-color:rgb(150, 150, 150); /* Cor de fundo */
+    color: white;           /* Cor do texto */
+    border: none;           /* Remove borda */
+    border-radius: 5px;     /* Bordas arredondadas */
+    cursor: pointer;       /* Mãozinha ao passar o mouse */
+    font-size: 16px;        /* Tamanho da fonte */
+  }
+
+  .tabs button:hover {
+    background-color: rgb(150, 150, 150); /* Cor ao passar o mouse */
+  }
+
+  .tabs button:focus {
+    outline: none; /* Remove o contorno de foco */
+  }
+</style>
+
 Para uma análise mais detalhada por ano, acesse os mapas individuais:
 
 - [Ocorrências 2023](/tcc/01-mapas-analise-inicial/mapa_ocorrencias_2023.html)
