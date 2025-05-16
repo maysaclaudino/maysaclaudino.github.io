@@ -9,9 +9,9 @@ image = '/images/mapa-sp.jpg'
 
 Nesta etapa inicial do projeto, foram construídos alguns mapas interativos com base nos dados de alagamentos e precipitação no município de São Paulo, referentes ao período de 2018 a 2023. O objetivo é identificar padrões espaciais que possam fundamentar as decisões na etapa de simulação da mobilidade urbana sob eventos de chuva intensa.
 
-Para facilitar a análise, consolidei em um único arquivo CSV os dados de [alagamentos](https://metadados.geosampa.prefeitura.sp.gov.br/geonetwork/intranet/por/catalog.search#/metadata/432c06b1-03a1-4b1f-9210-423e1b58e869) registrados pela [Defesa Civil](https://www.defesacivil.sp.gov.br/), os registros de ruas intransitáveis fornecidos pela [Companhia de Engenharia de Tráfego](https://www.cetsp.com.br/), e os [índices pluviométricos](https://arquivos.saisp.br/nextcloud/index.php/s/qikdinFyAM33MJK?path=%2FBOLETIM_PLUVIOMETRICO) correspondentes à data de cada ocorrência, obtidos do [Centro de Gerenciamento de Emergências Climáticas](https://www.cgesp.org/v3/).
+Para facilitar a análise, foi agrupado em um único arquivo CSV os dados de [alagamentos](https://metadados.geosampa.prefeitura.sp.gov.br/geonetwork/intranet/por/catalog.search#/metadata/432c06b1-03a1-4b1f-9210-423e1b58e869) registrados pela [Defesa Civil](https://www.defesacivil.sp.gov.br/), os registros de ruas intransitáveis fornecidos pela [Companhia de Engenharia de Tráfego](https://www.cetsp.com.br/) (CET), e os [índices pluviométricos](https://arquivos.saisp.br/nextcloud/index.php/s/qikdinFyAM33MJK?path=%2FBOLETIM_PLUVIOMETRICO) correspondentes à data de cada ocorrência, obtidos do [Centro de Gerenciamento de Emergências Climáticas](https://www.cgesp.org/v3/) (CGE).
 
-O conjunto abrange o período de 2018 a 2023. Optei por não incluir ano de 2024, pois os dados da CET deste ano estavam disponíveis apenas até o início de novembro e poderiam comprometer a comparação anual.
+O conjunto abrange o período de 2018 a 2023. A escolha de não incluir ano de 2024 se deve ao fato de que os dados obtidos da CET deste ano estavam disponíveis apenas até o início de novembro e poderiam comprometer a comparação anual.
 
 ## Ocorrências de alagamentos e ruas intransitáveis (2018–2023)
 
@@ -120,8 +120,38 @@ Dado o volume, a distribuição dos dados e a diversidade de meios de transporte
 
 ## Ocorrências sem chuva significativa
 
-Outro ponto que me chamou atenção são os registros de ocorrências em dias com baixa ou nenhum a precipitação (filtrando os dados com "< 5 mm" no mapa de ocorrências). Um estudo do porque isso acontece pode ser relevante para implementar o simulador, algumas ideias são:
+Registros de ocorrências em dias com baixa ou nenhuma precipitação (filtrando os dados com "< 5 mm" no mapa de ocorrências) chamam a atenção. Um estudo do motivo desses casos pode ser relevante para implementar o simulador. Algumas hipóteses incluem:
 
 - A possibilidade de alagamentos residuais causados por chuvas anteriores devido a qualidade da infraestrutura de drenagem.
 - A influência da topografia, que pode favorecer o acúmulo de água com mais facilidade.
-- Inconsistências nos registros: os dados de precipitação são contabilizados das 00h às 23h59 de cada dia, será que existem casos em que a chuva ocorreu à noite, mas o alagamento foi registrado apenas no dia seguinte?
+- Inconsistências nos registros: como os dados de precipitação do CGE são contabilizados das 00h às 23h59 de cada dia, é possível que em alguns casos a precipitação tenha ocorrido à noite, enquanto o alagamento tenha sido registrado apenas no dia seguinte?
+
+### Verificação de dados com o Instituto Nacional de Meteorologia
+
+Para tentar esclarecer essa dúvida, realizamos uma verificação entre os dados de pluviometria do CGE e os da estação do [Instituto Nacional de Meteorologia](https://portal.inmet.gov.br/) (INMET), localizada na subprefeitura de Santana-Tucuruvi.
+
+Abaixo, apresentamos um mapa que mostra o [coeficiente de correlação de Pearson](https://journals.lww.com/anesthesia-analgesia/fulltext/2018/05000/Correlation_CoefficientsAppropriate_Use_and.50.aspx) entre os dados de pluviometria do CGE de cada subprefeitura e os dados da estação do INMET, abrangendo o período de 2018 a 2023, em dias em que pelo menos uma das estações registrou pluviometria. O coeficiente de Pearson varia de 0 a 1, conforme a tabela a seguir:
+
+| Coeficiente de Pearson | Interpretação             |
+|------------------------|---------------------------|
+| 0,00 – 0,09            | Correlação insignificante |
+| 0,10 – 0,39            | Correlação fraca          |
+| 0,40 – 0,69            | Correlação moderada       |
+| 0,70 – 0,89            | Correlação forte          |
+| 0,90 – 1,00            | Correlação muito forte    |
+
+<iframe id="mapa_ocorrencias" src="/tcc/01-mapas-analise-inicial/mapa_correlacao_chuvas.html" width="100%" height="600" style="border:none;"></iframe>
+
+A partir do mapa, é possível observar que as subprefeituras mais próximas à estação do INMET apresentam maiores coeficientes de correlação, sendo Santana-Tucuruvi o maior, com valor de 0,82, o que representa uma correlação forte. Dessa forma, a comparação entre as duas fontes de dados faz sentido principalmente nessas regiões. Em particular, temos interesse na subprefeitura da Sé cujo coeficiente é 0,74, também considerado uma correlação forte.
+
+Com base apenas nas datas das ocorrências, construímos os gráficos a seguir, que comparam os índices pluviométricos das duas fontes na Sé e em Santana-Tucuruvi:
+
+<div style="display: flex; flex-direction: column; align-items: center; gap: 20px;">
+
+<img src="/tcc/01-mapas-analise-inicial/cge-vs-inmet-se.png" alt="Comparação dos índices pluviométricos CGE vs INMET na Sé (2018–2023)" style="border: 1px solid #888; width: 80%; max-width: 600px;">
+
+<img src="/tcc/01-mapas-analise-inicial/cge-vs-inmet-st.png" alt="Comparação dos índices pluviométricos CGE vs INMET em Santana-Tucuruvi (2018–2023)" style="border: 1px solid #888; width: 80%; max-width: 600px;">
+
+</div>
+
+A análise dos gráficos mostra que, de fato, existem datas com registros de alagamento em que o CGE indicou baixa pluviometria enquanto o INMET indicou volumes mais elevados, e vice-versa. Também há casos em que ambos os órgãos registraram baixa pluviometria em dias com ocorrência de alagamentos.
