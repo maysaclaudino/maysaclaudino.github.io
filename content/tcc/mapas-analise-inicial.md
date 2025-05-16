@@ -15,7 +15,7 @@ O conjunto abrange o período de 2018 a 2023. A escolha de não incluir ano de 2
 
 ## Ocorrências de alagamentos e ruas intransitáveis (2018–2023)
 
-<iframe id="mapa_ocorrencias" src="/tcc/01-mapas-analise-inicial/mapa_pontos_ocorrencias_2018-2023.html" width="100%" height="600" style="border:none;"></iframe>
+<iframe id="mapa_ocorrencias" src="/tcc/01-mapas-analise-inicial/mapa_pontos_ocorrencias_cluster_2018-2023.html" width="100%" height="600" style="border:none;"></iframe>
 
 <div class="tabs">
   <button onclick="trocarMapaOcorrecias('2018-2023')">2018-2023</button>
@@ -30,7 +30,7 @@ O conjunto abrange o período de 2018 a 2023. A escolha de não incluir ano de 2
 <script>
   function trocarMapaOcorrecias(ano) {
     const iframe = document.getElementById('mapa_ocorrencias');
-    iframe.src = `/tcc/01-mapas-analise-inicial/mapa_pontos_ocorrencias_${ano}.html`;
+    iframe.src = `/tcc/01-mapas-analise-inicial/mapa_pontos_ocorrencias_cluster_${ano}.html`;
   }
 </script>
 
@@ -60,6 +60,29 @@ O conjunto abrange o período de 2018 a 2023. A escolha de não incluir ano de 2
   }
 </style>
 
+<details>
+  <summary>Mapas sem agrupamento</summary>
+
+  <iframe id="mapa_ocorrencias" src="/tcc/01-mapas-analise-inicial/mapa_pontos_ocorrencias_2018-2023.html" width="100%" height="600" style="border:none;"></iframe>
+
+  <div class="tabs">
+    <button onclick="trocarMapaOcorreciasCluster('2018-2023')">2018-2023</button>
+    <button onclick="trocarMapaOcorreciasCluster('2018')">2018</button>
+    <button onclick="trocarMapaOcorreciasCluster('2019')">2019</button>
+    <button onclick="trocarMapaOcorreciasCluster('2020')">2020</button>
+    <button onclick="trocarMapaOcorreciasCluster('2021')">2021</button>
+    <button onclick="trocarMapaOcorreciasCluster('2022')">2022</button>
+    <button onclick="trocarMapaOcorreciasCluster('2023')">2023</button>
+  </div>
+
+  <script>
+    function trocarMapaOcorreciasCluster(ano) {
+      const iframe = document.getElementById('mapa_ocorrencias');
+      iframe.src = `/tcc/01-mapas-analise-inicial/mapa_pontos_ocorrencias_${ano}.html`;
+    }
+  </script>
+
+</details>
 
 ## Densidade de ocorrências por km² – Subprefeituras de SP (2018–2023)
 
@@ -81,33 +104,6 @@ O conjunto abrange o período de 2018 a 2023. A escolha de não incluir ano de 2
     iframe.src = `/tcc/01-mapas-analise-inicial/mapa_subdistrito_km2_${ano}.html`;
   }
 </script>
-
-<style>
-  .tabs {
-    display: flex;          /* Exibe os botões em linha */
-    gap: 10px;              /* Espaçamento entre as abas */
-    margin-bottom: 20px;    /* Espaço abaixo das abas */
-  }
-
-  .tabs button {
-    padding: 10px 20px;     /* Tamanho do botão */
-    background-color:rgb(150, 150, 150); /* Cor de fundo */
-    color: white;           /* Cor do texto */
-    border: none;           /* Remove borda */
-    border-radius: 5px;     /* Bordas arredondadas */
-    cursor: pointer;       /* Mãozinha ao passar o mouse */
-    font-size: 16px;        /* Tamanho da fonte */
-  }
-
-  .tabs button:hover {
-    background-color: rgb(90, 90, 90); /* Cor ao passar o mouse */
-  }
-
-  .tabs button:focus {
-    outline: none; /* Remove o contorno de foco */
-  }
-</style>
-
 
 ## Perfil das regiões mais afetadas
 
