@@ -6,8 +6,15 @@
     <description>Recent content on Maysa Claudino</description>
     <generator>Hugo</generator>
     <language>pt-br</language>
-    <lastBuildDate>Mon, 05 May 2025 19:13:56 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 08 Jul 2025 18:50:30 -0300</lastBuildDate>
     <atom:link href="https://maysaclaudino.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Movimentação e Interdição de Vias</title>
+      <link>https://maysaclaudino.github.io/tcc/movimentacao-e-interdicao/</link>
+      <pubDate>Tue, 08 Jul 2025 18:50:30 -0300</pubDate>
+      <guid>https://maysaclaudino.github.io/tcc/movimentacao-e-interdicao/</guid>
+      <description>&lt;!-- - tentar gerar visualização&#xA;- tese de mestrado 4.3 kanashiro&#xA;  - como fechar uma via&#xA;  - como mudar o trajeto&#xA;  - codigo no github&#xA;&#xA;--- --&gt;&#xA;&lt;p&gt;Para simular o impacto de eventos pluviométricos na mobilidade, é fundamental modelar tanto o deslocamento padrão dos veículos quanto as alterações dinâmicas na malha viária, como a interdição de ruas. Esta seção detalha os mecanismos implementados no &lt;strong&gt;InterSCsimulator&lt;/strong&gt; para essas duas funcionalidades.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Análise inicial dos dados e visualização em mapas</title>
       <link>https://maysaclaudino.github.io/tcc/mapas-analise-inicial/</link>

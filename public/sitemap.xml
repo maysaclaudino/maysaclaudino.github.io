@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://maysaclaudino.github.io/tcc/mapas-analise-inicial/</loc>
-    <lastmod>2025-05-05T19:13:56-03:00</lastmod>
-  </url><url>
     <loc>https://maysaclaudino.github.io/</loc>
-    <lastmod>2025-05-05T19:13:56-03:00</lastmod>
+    <lastmod>2025-07-08T18:50:30-03:00</lastmod>
+  </url><url>
+    <loc>https://maysaclaudino.github.io/tcc/movimentacao-e-interdicao/</loc>
+    <lastmod>2025-07-08T18:50:30-03:00</lastmod>
   </url><url>
     <loc>https://maysaclaudino.github.io/tcc/</loc>
+    <lastmod>2025-07-08T18:50:30-03:00</lastmod>
+  </url><url>
+    <loc>https://maysaclaudino.github.io/tcc/mapas-analise-inicial/</loc>
     <lastmod>2025-05-05T19:13:56-03:00</lastmod>
   </url><url>
     <loc>https://maysaclaudino.github.io/tcc/proposta/</loc>
