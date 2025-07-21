@@ -42,7 +42,7 @@ A lógica de movimentação para os ônibus é semelhante à dos carros, mas com
 
 ## Implementação de Interdição e Alteração de Vias
 
-A simulação de alagamentos exige que a malha viária possa ser alterada dinamicamente. Essa funcionalidade foi implementada na dissertação de mestrado de Lucas Kanashiro, que introduz um gerenciador de eventos e de grafos.
+A simulação de alagamentos exige que a malha viária possa ser alterada dinamicamente. Essa funcionalidade foi implementada na [dissertação de mestrado de Lucas Kanashiro](https://teses.usp.br/teses/disponiveis/45/45134/tde-15042019-144600/publico/dissertacao_LucasKanashiro_versao_final.pdf), que introduz um gerenciador de eventos e de grafos.
 
 Diferente da versão original do simulador, esta implementação conta com um gerenciador de grafo. Este agente é executado em um laço infinito, permitindo que outros processos enviem mensagens para adicionar ou remover vértices e arestas do dígrafo a qualquer momento.
 
