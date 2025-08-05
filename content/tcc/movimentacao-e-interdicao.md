@@ -25,10 +25,10 @@ O deslocamento de um carro entre um ponto de origem e um de destino segue as seg
 
 1.  **Cálculo de Rota:** A rota é definida como uma lista de vértices que representa o menor caminho no dígrafo entre a origem e o destino.
 2.  **Ocupação da Via:** Ao entrar em uma nova aresta (via), um contador que registra o número de veículos presentes nela é incrementado.
-3.  **Cálculo de Velocidade:** A velocidade do veículo é calculada dinamicamente com base na ocupação da via. A fórmula considera o limite de velocidade da via, sua capacidade máxima e o número de veículos que nela trafegam.
+3.  **Cálculo de Velocidade (m/s):** A velocidade do veículo é calculada dinamicamente com base na ocupação da via. A fórmula considera o limite de velocidade da via, sua capacidade máxima e o número de veículos que nela trafegam.
     * **Fluxo Livre:** Com a ocupação de até **30%** da capacidade, os carros se movem na velocidade máxima permitida.
     * **Fluxo denso:** Entre **30% e 100%** da capacidade, a velocidade é progressivamente reduzida.
-    * **Congestionamento:** Ao atingir a capacidade máxima, a velocidade é drasticamente reduzida para um valor fixo (0,8), simulando uma condição de congestionamento.
+    * **Congestionamento:** Ao atingir a capacidade máxima, a velocidade é drasticamente reduzida para um valor fixo (0,8 m/s), simulando uma condição de congestionamento.
 4.  **Agendamento:** O simulador calcula o tempo que o veículo levará para percorrer a via e agenda sua próxima ação para o final desse período.
 5.  **Liberação da Via:** Ao sair da via, o contador de ocupação é decrementado, e a velocidade dos veículos restantes é recalculada.
 
