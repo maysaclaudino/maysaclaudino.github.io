@@ -2,23 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://maysaclaudino.github.io/</loc>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-12-14T15:01:56-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tcc/</loc>
+    <lastmod>2025-12-14T15:01:56-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tcc/trabalho-final/</loc>
+    <lastmod>2025-12-14T15:01:56-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tcc/movimentacao-e-interdicao/</loc>
     <lastmod>2025-07-08T18:50:30-03:00</lastmod>
   </url><url>
-    <loc>https://maysaclaudino.github.io/tcc/movimentacao-e-interdicao/</loc>
-    <lastmod>2025-07-08T18:50:30-03:00</lastmod>
-  </url><url>
-    <loc>https://maysaclaudino.github.io/tcc/</loc>
-    <lastmod>2025-07-08T18:50:30-03:00</lastmod>
-  </url><url>
-    <loc>https://maysaclaudino.github.io/tcc/mapas-analise-inicial/</loc>
+    <loc>http://localhost:1313/tcc/mapas-analise-inicial/</loc>
     <lastmod>2025-05-05T19:13:56-03:00</lastmod>
   </url><url>
-    <loc>https://maysaclaudino.github.io/tcc/proposta/</loc>
+    <loc>http://localhost:1313/tcc/proposta/</loc>
     <lastmod>2025-04-19T16:17:36-03:00</lastmod>
   </url><url>
-    <loc>https://maysaclaudino.github.io/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://maysaclaudino.github.io/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>

@@ -2,32 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Maysa Claudino</title>
-    <link>https://maysaclaudino.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Maysa Claudino</description>
     <generator>Hugo</generator>
     <language>pt-br</language>
-    <lastBuildDate>Tue, 08 Jul 2025 18:50:30 -0300</lastBuildDate>
-    <atom:link href="https://maysaclaudino.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Dec 2025 15:01:56 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Trabalho Final</title>
+      <link>http://localhost:1313/tcc/trabalho-final/</link>
+      <pubDate>Sun, 14 Dec 2025 15:01:56 -0300</pubDate>
+      <guid>http://localhost:1313/tcc/trabalho-final/</guid>
+      <description>&lt;h1 id=&#34;trabalho-final&#34;&gt;Trabalho Final&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Aluna:&lt;/strong&gt; Maysa Cristina Claudino da Silva&lt;br&gt;&#xA;&lt;strong&gt;Orientador:&lt;/strong&gt; Fabio Kon&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Movimentação e Interdição de Vias</title>
-      <link>https://maysaclaudino.github.io/tcc/movimentacao-e-interdicao/</link>
+      <link>http://localhost:1313/tcc/movimentacao-e-interdicao/</link>
       <pubDate>Tue, 08 Jul 2025 18:50:30 -0300</pubDate>
-      <guid>https://maysaclaudino.github.io/tcc/movimentacao-e-interdicao/</guid>
+      <guid>http://localhost:1313/tcc/movimentacao-e-interdicao/</guid>
       <description>&lt;!-- - tentar gerar visualização&#xA;- tese de mestrado 4.3 kanashiro&#xA;  - como fechar uma via&#xA;  - como mudar o trajeto&#xA;  - codigo no github&#xA;&#xA;--- --&gt;&#xA;&lt;p&gt;Para simular o impacto de eventos pluviométricos na mobilidade, é fundamental modelar tanto o deslocamento padrão dos veículos quanto as alterações dinâmicas na malha viária, como a interdição de ruas. Esta seção detalha os mecanismos implementados no &lt;strong&gt;InterSCsimulator&lt;/strong&gt; para essas duas funcionalidades.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Análise inicial dos dados e visualização em mapas</title>
-      <link>https://maysaclaudino.github.io/tcc/mapas-analise-inicial/</link>
+      <link>http://localhost:1313/tcc/mapas-analise-inicial/</link>
       <pubDate>Mon, 05 May 2025 19:13:56 -0300</pubDate>
-      <guid>https://maysaclaudino.github.io/tcc/mapas-analise-inicial/</guid>
+      <guid>http://localhost:1313/tcc/mapas-analise-inicial/</guid>
       <description>&lt;h1 id=&#34;análise-preliminar-dos-dados-de-alagamentos-e-chuvas&#34;&gt;Análise preliminar dos dados de alagamentos e chuvas&lt;/h1&gt;&#xA;&lt;p&gt;Nesta etapa inicial do projeto, foram construídos alguns mapas interativos com base nos dados de alagamentos e precipitação no município de São Paulo, referentes ao período de 2018 a 2023. O objetivo é identificar padrões espaciais que possam fundamentar as decisões na etapa de simulação da mobilidade urbana sob eventos de chuva intensa.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Proposta de trabalho</title>
-      <link>https://maysaclaudino.github.io/tcc/proposta/</link>
+      <link>http://localhost:1313/tcc/proposta/</link>
       <pubDate>Sat, 19 Apr 2025 16:17:36 -0300</pubDate>
-      <guid>https://maysaclaudino.github.io/tcc/proposta/</guid>
-      <description>&lt;h1 id=&#34;simulação-do-impacto-de-eventos-pluviométricos-na-mobilidade-urbana-da-cidade-de-são-paulo&#34;&gt;Simulação do impacto de eventos pluviométricos na mobilidade urbana da cidade de São Paulo&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://maysaclaudino.github.io/tcc/proposta.pdf&#34;&gt;Abrir a proposta em PDF&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/tcc/proposta/</guid>
+      <description>&lt;h1 id=&#34;simulação-do-impacto-de-eventos-pluviométricos-na-mobilidade-urbana-da-cidade-de-são-paulo&#34;&gt;Simulação do impacto de eventos pluviométricos na mobilidade urbana da cidade de São Paulo&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/tcc/proposta.pdf&#34;&gt;Abrir a proposta em PDF&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
