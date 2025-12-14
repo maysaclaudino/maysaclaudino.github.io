@@ -2,7 +2,7 @@
 date = '2025-12-14T15:01:56-03:00'
 draft = false
 title = 'Trabalho Final'
-image = '/images/map-network.jpg'
+image = '/images/regiao-analise.png'
 +++
 
 # Trabalho Final
