@@ -6,8 +6,15 @@
     <description>Recent content on Maysa Claudino</description>
     <generator>Hugo</generator>
     <language>pt-br</language>
-    <lastBuildDate>Sun, 14 Dec 2025 15:01:56 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 15 Dec 2025 15:24:17 -0300</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ponteiros</title>
+      <link>http://localhost:1313/tcc/ponteiros/</link>
+      <pubDate>Mon, 15 Dec 2025 15:24:17 -0300</pubDate>
+      <guid>http://localhost:1313/tcc/ponteiros/</guid>
+      <description>&lt;p&gt;O &lt;strong&gt;código fonte&lt;/strong&gt; está na branch:&#xA;&lt;a href=&#34;https://github.com/maysaclaudino/smart_city_model/tree/maysaclaudino/flood-simulation&#34;&gt;smart_city_model/flood-simulation&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Trabalho Final</title>
       <link>http://localhost:1313/tcc/trabalho-final/</link>
